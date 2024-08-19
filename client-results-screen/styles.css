@@ -1,0 +1,112 @@
+body {
+	color: #e17599;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 8%;
+}
+
+#timer-button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	color: #e17599;
+	font-weight: bold;
+	background-color: #ff86ae2c;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	height: 8vh;
+	width: 24vh;
+	margin: 10px;
+}
+
+#results-button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #e17599;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	height: 8vh;
+	width: 24vh;
+	margin: 10px;
+}
+
+#timer-button:hover {
+	background-color: #ff86ae76;
+}
+
+#timer-button:active {
+	transform: scale(0.98);
+}
+
+#results-button:hover {
+	background-color: #ff86aeab;
+}
+
+#results-button:active {
+	transform: scale(0.98);
+}
+
+#timer-container {
+	display: flex;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #ff86ae2c;
+	border: 2px solid #e17599;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	height: 4vh;
+	width: 20vh;
+	margin: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+#username {
+	margin: 3px;
+}
+
+#move {
+	margin: 3px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	background-color: #ff86ae2c;
+	width: 30vh;
+	height: 10vh;
+	border-radius: 30vh;
+}
+
+.ganador {
+	display: flex;
+	justify-content: center;
+	margin-top: 8vh;
+	font-size: 30px;
+	font-weight: bold;
+}
+.players {
+	display: flex;
+	flex-direction: row;
+}

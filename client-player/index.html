@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styes.css" />
+		<title>PLAYER</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+			}
+			#data-container {
+				margin-top: 20px;
+			}
+			.item {
+				margin-bottom: 10px;
+			}
+			img {
+				width: 30px;
+				border: 2px solid #ccc;
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>PLAYER</h1>
+		<div id="timer-container">
+			<h3>Tiempo</h3>
+		</div>
+		<input type="text" id="username_input" placeholder="Insert your name" />
+		<h2>Choose your move</h2>
+
+		<div class="botones">
+			<button id="piedra"
+				><img
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz15C1RO1AAU5y1roncc8m9DlwspTL98eMGg&s"
+					alt="Piedra"
+			/></button>
+			<button id="papel"
+				><img
+					src="https://images.vexels.me/media/users/3/151162/isolated/preview/0869c4066bc3ab02989e254304153611-paper-sheet-doodle-icon.png"
+					alt="Papel"
+			/></button>
+			<button id="tijera"><img src="https://cdn-icons-png.flaticon.com/512/547/547905.png" alt="Tijeras" /></button>
+		</div>
+
+		<p id="resultado"></p>
+		<button id="fetch-button">Send move</button>
+		<div id="data-container"></div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
